@@ -1,0 +1,309 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Quantia Report</title>
+   <meta name="generator" content="Quantia (http://www.formaciontrading.com)">
+   <meta name="version" content="1.0">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <style type="text/css">
+body { background-color: white; font-family: Arial,Helvetica,sans-serif; font-size: 11px; }
+#center { margin: 0 auto; width: 820px; text-align: center; }
+#center a { display: block; margin: 10px 0 10px 0; color: #4B78AF; text-decoration: none;}
+#center a:hover { text-decoration: underline; }
+#summaryBox { margin: 5px 0 5px 0; padding: 7px 0px; }
+div.plPart { float: left; width: 175px; }
+div.summaryPart { float: right; width: 612px; }
+div.plPart .plH1 { font-size: 30px; font-weight: bold; text-align: right; font-family: Arial,Helvetica,sans-serif; border-bottom: 1px solid #D0D3D4; }
+div.plPart .plH2 { color: #898989; font-family: Tahoma,Arial,sans-serif; font-size: 12px; padding: 3px 0 0; text-transform: uppercase; clear: both; }
+.plPart .name { color: #606060; display: block; font-size: 11px; text-align: left; text-transform: uppercase; }
+.plPart .name2 { color: #606060; font-size: 11px; text-align: left; text-transform: uppercase; float: left; }
+.plPart .value{ text-align: right; display: block; float: right;}
+.plPart .value2{ text-align: right; display: block; float: right; font-size: 11px;}
+.positiveNum { color: #119911 !important; }
+.negativeNum { color: #FF4040 !important; }
+div.sumH2 { display: block; width: 117px; float: left; margin: 0 5px 5px 0;}
+div.sumH2 .name { color: #707070; font-size: 11px; text-align: left; text-transform: uppercase; white-space: nowrap; }
+div.sumH2 .value { color: #404040; font-size: 14px; font-weight: bold; text-align: center; display: block; padding: 4px 0 4px 0; border: 1px solid #D0D3D4; margin-bottom: 5px;}
+div.title { text-align: center; color: #333333; font-family: Tahoma,Arial,sans-serif; padding-bottom: 10px;}
+.title h1 { color: #222222; font-size: 24px; font-weight: bold; line-height: 115%; margin: 5px 0; padding: 0; border-bottom: 0px; font-family: Arial,Helvetica,sans-serif; text-align: center;}
+.title h3 { margin: 5px 0; padding: 0; color: #333333;}
+div.params { text-align: center; color: #333333; font-family: Tahoma,Arial,sans-serif; border-bottom: 1px solid #E0E3E4; padding-bottom: 10px; margin-top: 10px;}
+.params th { white-space:nowrap; width: 150px; vertical-align: top; text-align: left; padding-left: 10px; font-weight: normal; color: #606060;}
+.params td { --background-color: #F5F5F5; font-weight: bold; color: #606060;}
+div.params { padding-right: 5px;}
+.params td th { padding: 3px;}
+div.chart { margin: 0px; text-align: center;}
+div.charts img {page-break-inside: avoid;}
+.months td { color: #4B78AF; font-weight: bold; padding-right: 10px !important;}
+.bold { font-weight: bold;}
+.oddrow td { background-color: #F5F5F5; border-bottom: 1px solid #EEEEEE; border-top: 1px solid #EEEEEE; color: #404040; font-size: 11px; text-align: right; white-space:nowrap;}
+.evenrow td { color: #404040; font-size: 11px; text-align: right; white-space:nowrap;}
+.tbg { background-color: #F0F0F0;}
+table.calendar { width: 100%;}
+table.calendar td { padding: 5px 3px 5px 0; text-align: right; width: 6%;}
+td.red { color: #FF4040;}
+.performance h1 { margin: 0 0 2px;}
+div.charts { position: relative;}
+div.charts td { text-align: center;}
+h1 { border-bottom: 1px solid #DCDCDC; color: #454545; font-family: Tahoma,Arial,sans-serif; font-size: 12px; line-height: 18px; margin: 20px 0 2px; padding: 0 0 5px; text-transform: uppercase; text-align: left;}
+#helptext { top: 7px; position: absolute; right: 0; color: #4B78AF;}
+td { font-size: 11px; padding: 3px 5px 3px 5px; text-align: left; }
+h4 { font-size: 11px; font-weight: bold; margin: 0; margin-bottom: 5px; text-align: center; color: #454545; }
+.orders {width: 820px; }
+.orders td {text-align: right; color: #404040; }
+.strategies { margin-top: 10px;}
+.performance { margin-top: 10px;}
+.stats {margin: 10px 0 10px 0;}
+.stats td { width: 135px; text-align: right; padding: 3px 10px 3px 5px; white-space:nowrap; color: #333333; }
+.stats table {width: 820px; }
+.vital td { font: 12px Tahoma,Arial; text-align: right; padding: 3px 10px 3px 5px; white-space:nowrap;}
+td.keyB { width: 125px; background-color: #e4e4e4; font-weight: bold; }
+td.valB { width: 145px; background-color: #F3F3F3; font-weight: bold; }
+td.key { width: 125px; background-color: #F0F0F0; }
+td.val { width: 145px; background-color: #F8F8F8; }
+td.keyT { background-color: #F0F0F0; }
+td.valT { background-color: #F8F8F8; }
+.statsBox { width: 820px; padding: 5px 0 2px 0; }
+.trTrades { background-color: #E0E0E0; text-align: right; }
+.trTrades td { color: #4B78AF !important; font-weight: bold; }
+div.cPart { display:block; clear: both; text-align: right; position: relative; top: -7px; margin-right: 7px; color: #707070; font-size: 10px; font-family: Tahoma, Arial;}
+div.cPart a { margin: 0 !important; color: #707070 !important;}
+img { border: 1px solid #CCCCCC; }
+table.strategies { width: 100%;}
+table.strategies td { padding: 5px 3px 5px 0; text-align: right; white-space:nowrap;}
+</style>
+</head>
+<body>
+<div id="center">
+   <div class="title">
+      <h1>Quantia Report</h1>
+      <h3>STR_MJ</h3>
+   </div>
+
+	   <div class="params">
+		  <table class="params" cellspacing="2">
+		  <tr>
+			 <th>Initial deposit</th>
+			 <td>50000.0</td>
+			 <th></th>
+			 <td></td>
+		  </tr>
+		  </table>
+	   </div>
+   <div id="summaryBox">
+      <div class="plPart">
+         <div class="plH1">
+            <div class="name">Total Profit</div>
+            <div class="positiveNum">		$ 5634.69
+</div>
+            
+         </div>
+         <div class="plH2">
+            <div class="name2">
+					Profit in pips
+			</div>
+            <div class="positiveNum value2">123 pips</div>
+         </div>
+         <div class="plH2">
+            <div class="name2">Yrly Avg profit</div>
+            <div class="positiveNum value2">		$ 33808.14
+</div>
+         </div>
+		 <div class="plH2">
+            <div class="name2">Yrly Avg % ret</div>
+            <div class="positiveNum value2">338.1 %</div>
+         </div>
+		 <div class="plH2">
+            <div class="name2">CAGR</div>
+            <div class="positiveNum value2">56.35 %</div>
+         </div>
+      </div>
+
+      <div class="summaryPart">
+         <div class="sumH2">
+            <div class="name"># of trades</div>
+            <div class="value">43</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Sharpe ratio</div>
+            <div class="value">0.22</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Profit factor</div>
+            <div class="value">1.47</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Return / DD ratio</div>
+            <div class="value">1.43</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Winning %</div>
+            <div class="value">69.77 %</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Drawdown</div>
+            <div class="value">		$ 3934.04
+</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">% Drawdown</div>
+            <div class="value">25.02 %</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Daily Avg profit</div>
+            <div class="value">		$ 1878.23
+</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Mthly Avg profit</div>
+            <div class="value">		$ 2817.35
+</div>
+         </div>
+         <div class="sumH2">
+            <div class="name">Average trade</div>
+            <div class="value">		$ 131.04
+</div>
+         </div>
+		 <div class="sumH2">
+            <div class="name">Annual% / Max DD%</div>
+            <div class="value">2.25</div>
+         </div>
+		 <div class="sumH2">
+            <div class="name">R Expectancy</div>
+            <div class="value">0.14 R</div>
+         </div>
+		 <div class="sumH2">
+            <div class="name">R Exp score</div>
+            <div class="value">36.81 R</div>
+         </div>
+		 <div class="sumH2">
+            <div class="name">SQN</div>
+            <div class="value">1.16</div>
+         </div>
+		 <div class="sumH2">
+            <div class="name">SQN score</div>
+            <div class="value">1.29</div>
+         </div>
+      </div>
+      <div class="cPart">
+      <a href="http://www.formaciontrading.com">generated by Quantia</a>
+      </div>
+   </div>
+	<div class="performance">
+      <h1>Monthly Performance ($)</h1>
+      <table class="calendar" cellspacing="0" cellpadding="0" border="0">
+      <tr class="months">
+         <td>Year</td>
+         <td>Jan</td>
+         <td>Feb</td>
+         <td>Mar</td>
+         <td>Apr</td>
+         <td>May</td>
+         <td>Jun</td>
+         <td>Jul</td>
+         <td>Aug</td>
+         <td>Sep</td>
+         <td>Oct</td>
+         <td>Nov</td>
+         <td>Dec</td>
+         <td>YTD</td>
+      </tr>
+	  
+	  
+		  <tr class="oddrow">
+			 <td class="bold">2025</td>
+			 
+				 <td >0</td>
+				 <td >0</td>
+				 <td >0</td>
+				 <td >2467.35</td>
+				 <td >2772.92</td>
+				 <td >394.42</td>
+				 <td >0</td>
+				 <td >0</td>
+				 <td >0</td>
+				 <td >0</td>
+				 <td >0</td>
+				 <td >0</td>
+				 <td >5634.69</td>
+		  </tr>
+		  
+      </table>
+   </div>
+
+
+
+	<div class="stats">
+      <h1>Stats</h1>
+      <div class="statsBox">
+      <h4>Strategy</h4>
+      <table class="stats" width="820" cellspacing="2">
+		<tr>
+         <td class="key">Wins/Losses Ratio</td><td class="val">2.31</td>
+         <td class="key">Payout Ratio (Avg Win/Loss)</td><td class="val">0.64</td>
+         <td class="key">Average # of Bars in Trade</td><td class="val">0</td>
+      </tr>
+		<tr>
+         <td class="key">AHPR</td><td class="val">1.19</td>
+         <td class="key">Z-Score</td><td class="val">-1.71</td>
+         <td class="key">Z-Probability</td><td class="val">95.64 %</td>
+      </tr>
+      <tr>
+         <td class="key">Expectancy</td><td class="val">131.04</td>
+         <td class="key">Deviation</td><td class="val">		$ 737.8
+</td>
+         <td class="key">Exposure</td><td class="val">-999999999 %</td>
+      </tr>
+      <tr>
+         <td class="key">Stagnation in Days</td><td class="val">31</td>
+         <td class="key">Stagnation in %</td><td class="val">52.54 %</td>
+         <td></td><td></td>
+      </tr>
+      </table>
+      </div>
+
+      <br/>
+      <div class="statsBox">
+      <h4>Trades</h4>
+      <table class="stats" width="820" cellspacing="2">
+		<tr>
+         <td></td><td></td>
+         <td class="keyT"># of Wins</td><td class="valT">30</td>
+         <td class="keyT"># of Losses</td><td class="valT">13</td>
+         <td class="keyT"># of Cancelled/Expired</td><td class="valT">0</td>
+      </tr>
+		<tr>
+         <td class="keyT">Gross Profit</td><td class="valT">		$ 17575.52
+</td>
+         <td class="keyT">Gross Loss</td><td class="valT">		$ -11940.83
+</td>
+         <td class="keyT">Average Win</td><td class="valT">		$ 585.85
+</td>
+         <td class="keyT">Average Loss</td><td class="valT">		$ -918.53
+</td>
+      </tr>
+		<tr>
+         <td class="keyT">Largest Win</td><td class="valT">		$ 1306.42
+</td>
+         <td class="keyT">Largest Loss</td><td class="valT">		$ -1099.4
+</td>
+         <td class="keyT">Max Consec Wins</td><td class="valT">11</td>
+         <td class="keyT">Max Consec Losses</td><td class="valT">3</td>
+      </tr>
+		<tr>
+         <td class="keyT">Avg Consec Wins</td><td class="valT">3.75</td>
+         <td class="keyT">Avg Consec Loss</td><td class="valT">1.86</td>
+         <td class="keyT">Avg # of Bars in Wins</td><td class="valT">0</td>
+         <td class="keyT">Avg # of Bars in Losses</td><td class="valT">0</td>
+      </tr>
+      </table>
+      </div>
+   </div>
+ 
+
+<a href="http://www.formaciontrading.com">Report generated by Quantia</a>
+</div>
+</body>
+</html>
+
